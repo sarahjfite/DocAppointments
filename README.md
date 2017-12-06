@@ -1,4 +1,9 @@
-# Doctor Appointments
+# Logistics Regression Analysis: Medical Appointments
+## MSDS 6372 - Section 403
+## Project 3
+
+![Source: bitcoin.com](https://dusknews.files.wordpress.com/2016/07/mildred-doctor-appointment-wait-times-ftr.jpg)
+
 Introduction
 
 Health care is a passionate topic. It’s a daily news headline. In fact, in the November 2017 elections, CNBC reported that 70% of Virginia voters reported that health care was the most important issue influencing their vote (Mangan, 2017). Given that large percentage, one might find it shocking to learn that “no show” appointments are one of the largest healthcare costs to medical practices. In fact, it’s estimated that no-shows cost the U.S. health-care system more than $150 billion a year (Toland, 2013). But the “costs” are not limited to monetary damages. In a country with over 230,000 physician practices in the U.S. (Martin, 2017); we also have extended wait times to see physicians. In a survey of physician practices in 15 regional areas, it was estimated that the average wait time for a new patient to see a physician is 18 days (Hawkins, 2014). While no-show appointments are not the only reason for this extensive delay in getting treatment, they do attribute to the issue, as every no-show missed by one person is a actually an appointment missed by two- the person it was originally booked for and a person waiting for an appointment (Peres, 2016).
