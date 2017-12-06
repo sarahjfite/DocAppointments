@@ -1,8 +1,10 @@
 # Logistics Regression Analysis: Medical Appointments
-## MSDS 6372 - Section 403
-## Project 3
+### MSDS 6372 - Section 403
+### Project 3
 
 ![Source: bitcoin.com](https://dusknews.files.wordpress.com/2016/07/mildred-doctor-appointment-wait-times-ftr.jpg)
+
+# Group Members 
 
 Introduction
 
