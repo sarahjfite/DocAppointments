@@ -4,7 +4,11 @@
 
 ![Source: bitcoin.com](https://dusknews.files.wordpress.com/2016/07/mildred-doctor-appointment-wait-times-ftr.jpg)
 
-# Group Members 
+# <a name="team-members"></a> Group Members 
+* [David Tran](https://github.com/davidtran20)
+* [Matthew Przybyla](https://github.com/mprzybyla123)
+* [Sarah Fite](https://www.google.com/)
+
 
 Introduction
 
