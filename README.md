@@ -18,7 +18,7 @@ In this project, using 300k records of medical appointments, we analyze no-show 
 
 Dataset Description:
 
-The analysis was conducted on a 100K dataset from Kaggle. The 300k records represent public healthcare medical appointments from Espirito Santo State, Victoria, Brazil (Hoppen, 2017). The dataset contains the following 15 variables:
+The analysis was conducted on a 100K+ dataset from Kaggle. The 100K+ records represent public healthcare medical appointments from Espirito Santo State, Victoria, Brazil (Hoppen, 2017). The dataset contains the following 15 variables:
 
 · PatientId = ID of the patient
 
