@@ -10,15 +10,27 @@ Dataset Description
 The analysis was conducted on a 300k dataset from Kaggle. The 300k records represent public healthcare medical appointments from Espirito Santo State, Victoria, Brazil (Hoppen, 2017). The dataset contains the following 15 variables:
 
 · PatientId = ID of the patient
+
 · AppointmentID = ID of the appointment
+
 · Gender = Gender of patient
+
 · ScheduledDay = The day which appointment scheduled
+
 · AppointmentDay = The day which appointment planned to occur
+
 · Age = Age of the patient
+
 · Neighborhood = The place where hospital located. These hospitals are in neighborhoods within Victoria, a capital city, and receive dozens of patients from other cities.
+
 · Scholarship = If the patient has “scholarship” or not. In this case, scholarship is a social welfare program of the Brazilian government ("Bolsa Família", 2017).
+
 · Hypertension = If the patient has Hypertension or not
+
 · Diabetes = If the patient has Diabetes or not
+
 · Alcoholism = If the patient has Alcoholism or not. Handicap = If the patient has Handicap or not. This is not a binary measurement, but is measured in the total number of handicaps. For example, if the person is blind and can't walk the total is 2.
+
 · SMS_received = If the patient received an SMS for the appointment. This also is not a binary measurement, but measures the number of SMS texts the patient received.
+
 · No.show = no show information. “Yes” means patient did not come to the appointment, “No” means patient came to appointment.
