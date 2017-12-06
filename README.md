@@ -16,7 +16,7 @@ Health care is a passionate topic. It’s a daily news headline. In fact, in the
 
 In this project, using 300k records of medical appointments, we analyze no-show appointments in order to determine the possibility of predicting likelihood of no-show appointments. This prediction is based on the analysis of the following variables: Gender, Scheduled Day, Age, Neighborhood, Scholarship, Hypertension, Diabetes, Alcoholism, Handicap, and SMS received.
 
-Dataset Description
+Dataset Description:
 
 The analysis was conducted on a 300k dataset from Kaggle. The 300k records represent public healthcare medical appointments from Espirito Santo State, Victoria, Brazil (Hoppen, 2017). The dataset contains the following 15 variables:
 
