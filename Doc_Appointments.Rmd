@@ -2,7 +2,7 @@
 
 Prediction: No Show Appointments
 
-Date: 12.4.2017
+Date: '`r format(Sys.Date(), "%B %d, %Y")`'
 
 Participants: Sarah Fite, Matthew Przybyla, and David Tran
 
@@ -19,9 +19,10 @@ Data_Sub <- subset(Data, select=c(3,6,8,9,10,11,12,13,14))
 
 # Summary and Statistics 
 ```{r}
-summary(Data_Sub)
 head(Data_Sub)
 str(Data_Sub)
+sapply(Data_Sub, sd)
+xtabs(~NOSHOW + Age, data = Data_Sub)
 ```
 
 # Fitting the Model 
@@ -45,6 +46,8 @@ eval <- performance(predf, "acc")
 plot(eval)
 abline(h=0.80, v=0.35)
 ```
+
+# ROCR Curve 
 ```{r}
 pred <- prediction(pred, Data_Sub$NOSHOW)
 roc <- performance(pred, "tpr", "fpr")
@@ -55,8 +58,25 @@ plot(roc,
      xlab = "1 - Specificity")
 abline(a=0, b=1)
 ```
- 
 
+# Area Under Curve (AUC)
+```{r}
+auc <- performance(pred, "auc")
+auc <- unlist(slot(auc, "y.values"))
+auc <- round(auc, 4)
+```
 
-
-
+# Identify Best Values
+```{r}
+max <- which.max(slot(eval, "y.values")[[1]])
+max
+acc <- slot(eval, "y.values")[[1]][max]
+acc
+cut <- slot(eval, "x.values")[[1]][max]
+cut
+```
+# Summary and Confint
+```{r}
+summary(model)
+confint(model)
+```
